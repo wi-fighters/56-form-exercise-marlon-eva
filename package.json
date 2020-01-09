@@ -4,7 +4,8 @@
   "description": "In this example, we'll create a form that a customer can use to update their delivery and billing addresses.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-css": "dart-sass --watch scss/style.scss style.css --style compressed"
   },
   "repository": {
     "type": "git",
